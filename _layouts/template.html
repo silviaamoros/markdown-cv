@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- I need both media links, one to show on my web page and one to print it to PDF, because format is different. -->
+    <!-- Print css. Remember enabling background color when you print. More settings -> Background color.  -->
+    <link href="../css/{{ page.css }}-print-style.css" type="text/css" rel="stylesheet" media="print">
+    <link href="../css/{{ page.css }}-screen-style.css" type="text/css" rel="stylesheet" media="screen">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <main>
+        {{ content }}
+    </main>
+</body>
+</html>
