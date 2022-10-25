@@ -58,7 +58,7 @@ Javascript
 [Comment]: <> (Foto de perfil)
 
 <div>
-<img src="https://pbs.twimg.com/profile_images/1361128063535300609/TAxhWZQZ_400x400.jpg](https://i1.sndcdn.com/artworks-DfDLRYUqkm9IDWcy-AYXT0w-t500x500.jpg)" alt="Foto de perfil">
+<img src="https://i1.sndcdn.com/artworks-DfDLRYUqkm9IDWcy-AYXT0w-t500x500.jpg" alt="Foto de perfil">
 </div>
 
 <div>
