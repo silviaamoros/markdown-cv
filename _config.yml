@@ -2,3 +2,4 @@
 kramdown:
   # parse markdown inside block-level HTML tag
   parse_block_html: true
+  input: GFM
