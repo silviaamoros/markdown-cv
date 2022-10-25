@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /*font: inherit;*/ /*Lo he quitado para que las fuentes mantengan el estilo.*/
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Aquí empieza el código  */
+
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*Contenedor que contiene todo*/
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  min-height: 100vh;
+}
+
+/*Parte principal del cv.*/
+#cv {
+  width: 70%;
+  padding: 3rem;
+}
+
+/*Barra lateral con datos personales.*/
+#sidebar {
+  width: 30%;
+  background-color: #212121;
+  color: white;
+}
+
+/* CSS*/
+h1 {
+  text-align: center;
+  font-size: 24pt;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: #ffcc00;
+  color: black;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16pt;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 14pt;
+  border-bottom: 2px solid black;
+  margin: 1rem 0;
+  font-variant: small-caps;
+  text-align: justify;
+}
+
+#sidebar h3 {
+  border-bottom: 2px solid #ffcc00;
+  color: #ffcc00;
+}
+
+h4 {
+  font-size: 12pt;
+}
+
+h5 {
+  font-size: 12pt;
+}
+
+p {
+  padding: 0.3rem 0;
+  text-align: justify;
+  font-size: 12pt;
+  line-height: normal;
+}
+
+img {
+  width: 100%;
+}
+
+code {
+  font-size: 10pt;
+  display: block;
+}
+
+#sidebar code {
+  padding-bottom: 1rem;
+  font-size: 10pt;
+}
+
+#sidebar > div > p:nth-child(1) {
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar > div:nth-child(2) {
+  padding: 1rem 2rem;
+}
+
+ul > li {
+  padding: 1rem 0rem;
+  font-size: 12pt;
+}
+
+#sidebar > div > p {
+  font-size: 12pt;
+  padding: 0.5rem 0;
+  word-wrap: break-word;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: #ffcc00; /* Green */
+}
+meter::-webkit-meter-bar{
+    border: 1px solid #ffcc00;
+}
+
+meter{
+    width: 20%;
+}
