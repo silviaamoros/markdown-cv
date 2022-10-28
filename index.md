@@ -1,5 +1,5 @@
 ---
-title: Alejandro Torcuato CV
+title: Silvia Amorós CV
 layout: template
 css: default
 ---
@@ -14,7 +14,7 @@ css: default
 
 [Comment]: <> (Nombre y apellidos del autor)
 
-# Alejandro Torcuato Morgado
+# Silvia Amorós
 
 [Comment]: <> (A qué te dedicas)
 
